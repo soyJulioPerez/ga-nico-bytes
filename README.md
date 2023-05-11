@@ -1,3 +1,0 @@
-# CodelabGoogleAnalytics
-
-## Build 3
