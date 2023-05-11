@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'codelab-google-analytics'`, () => {
+  it(`should have as title 'ga-nico-bytes'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('codelab-google-analytics');
+    expect(app.title).toEqual('ga-nico-bytes');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to codelab-google-analytics!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to ga-nico-bytes!');
   });
 });

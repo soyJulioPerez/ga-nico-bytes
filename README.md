@@ -5,9 +5,8 @@
 ## 1. Create project
 
 ```
-ng new codelab-google-analytics
+ng new ga-nico-bytes
 ```
-
 
 ## 2. Create pages
 

@@ -11,15 +11,15 @@ declare var gtag;
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'codelab-google-analytics';
+  title = 'ga-nico-bytes';
 
   constructor(
     private router: Router
   ) {
     const navEndEvents$ = this.router.events
-    .pipe(
-      filter(event => event instanceof NavigationEnd)
-    );
+      .pipe(
+        filter(event => event instanceof NavigationEnd)
+      );
 
     navEndEvents$.subscribe((event: NavigationEnd) => {
       gtag('config', 'UA-136822854-1', {
